@@ -38,3 +38,19 @@ body {
     color: #A1A7CE;
     /* transform: translateY(-120px); */
 }
+
+.figure-img {
+    width: 85%;
+    height: 85%;
+    transform: translateY(30px);
+}
+
+.hero .fig-caption {
+    margin-top: 15px;
+    transform: translateX(95px);
+    font-size: 16px;
+}
+
+.btn-arrow-left {
+    padding: 5px;
+}
