@@ -45,12 +45,17 @@ body {
     transform: translateY(30px);
 }
 
-.hero .fig-caption {
-    margin-top: 15px;
+.figure-caption {
+    margin-top: 30px;
     transform: translateX(95px);
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.btn-arrow-left {
-    padding: 5px;
+.btn-arrow {
+    transform: translate(309px, -49px);
+}
+
+.btn-arrow img {
+    width: 80px;
+    height: 50px;
 }
