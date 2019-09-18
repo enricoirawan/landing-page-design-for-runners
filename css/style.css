@@ -83,6 +83,10 @@ body {
     color: #ffffff;
 }
 
+.container-banner a {
+    text-decoration: none;
+}
+
 .banner .btn-text p {
     font-size: 16px;
     color: #757C9B;
