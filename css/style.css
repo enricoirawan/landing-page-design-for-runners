@@ -15,6 +15,11 @@ body {
 }
 
 /* navbar */
+.navbar {
+    animation-name: forNavbar;
+    animation-duration: 2s;
+}
+
 .position-nav {
     transform: translateX(300px);
 }
@@ -25,6 +30,16 @@ body {
 }
 
 /* hero */
+.hero-text {
+    animation-name: forHeroText;
+    animation-duration: 2s;
+}
+
+.hero-img {
+    animation-name: forHeroImg;
+    animation-duration: 2s;
+}
+
 .hero h1 {
     margin-top: 30%;
 }
@@ -90,4 +105,42 @@ body {
 .banner .btn-text p {
     font-size: 16px;
     color: #757C9B;
+}
+
+/* animation */
+
+@keyframes forNavbar {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes forHeroText {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes forHeroImg {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
